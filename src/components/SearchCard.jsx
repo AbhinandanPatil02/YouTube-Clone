@@ -1,7 +1,8 @@
 import { abbreviateNumber } from "js-abbreviation-number";
 import React from "react";
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import Time from "../loader/Time";
+// import Time from "../loader/Time";
+import Time from "../loader/time"
 import { Link } from "react-router-dom";
 
 function SearchCard({ video }) {
