@@ -10,9 +10,6 @@ import Loading from "./loader/Loding"
 const App = () => {
     const { loading } = useAuth();
 
-    // console.log(loading);
-    // console.log(data);
-
     return (
         <div>
             {loading &&<Loading/>}
